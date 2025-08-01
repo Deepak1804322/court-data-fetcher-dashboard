@@ -1,17 +1,17 @@
-# 🏛️ Court-Data Fetcher & Mini Dashboard
+# Court-Data Fetcher & Mini Dashboard
 
 This Flask web app allows users to search for Indian court case metadata using case type, number, and filing year.
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
-### 🔹 Input:
+### Input:
 - Case Type: `CIVIL`
 - Case Number: `123`
 - Filing Year: `2023`
 
-### 🔸 Output:
+### Output:
 ```
 Case Number: 123
 Parties: John Doe vs State
@@ -22,11 +22,11 @@ Download Latest Order: [PDF Link]
 
 ---
 
-## 💻 Local Setup Instructions
+## Local Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/court-dashboard.git
+git clone https://github.com/Deepak1804322/court-data-fetcher-dashboard
 cd court-dashboard
 ```
 
@@ -54,7 +54,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📂 Folder Structure
+##Folder Structure
 
 ```
 court_data_fetcher_dashboard/
