@@ -17,7 +17,8 @@ Case Number: 123
 Parties: John Doe vs State
 Filing Date: 2023-06-14
 Next Hearing Date: 2025-08-10
-Download Latest Order: [PDF Link]
+Download Latest Order:  [https://delhihighcourt.nic.in/sample-judgment.pdf](https://delhihighcourt.nic.in/sample-judgment.pdf)
+
 ```
 
 ---
