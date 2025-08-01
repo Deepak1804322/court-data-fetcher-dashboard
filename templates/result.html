@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Case Details</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa; }
+        .container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 8px rgba(0,0,0,0.1); }
+        .error { color: red; font-weight: bold; }
+        .label { font-weight: bold; margin-top: 10px; }
+        a.download-link { color: blue; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Case Details</h1>
+        <p class="label">Case Number:</p> <p>{{ case_number }}</p>
+
+        {% if details.error %}
+            <p class="error">Error: {{ details.error }}</p>
+        {% else %}
+            <p class="label">Parties:</p> <p>{{ details.parties }}</p>
+            <p class="label">Filing Date:</p> <p>{{ details.filing_date }}</p>
+            <p class="label">Next Hearing Date:</p> <p>{{ details.next_hearing }}</p>
+            <p class="label">Download Latest Order PDF:</p>
+            <p><a class="download-link" href="{{ details.pdf_link }}" target="_blank">Click here to download</a></p>
+        {% endif %}
+    </div>
+</body>
+</html>
