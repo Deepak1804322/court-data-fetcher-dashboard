@@ -21,7 +21,7 @@ This Flask web app allows users to search for Indian court case metadata using c
 ## Screenshots
 
 ### Search Form
-![Search Form]screenshots/Screenshot 2025-08-10 123932.png
+![Search Form] https://github.com/Deepak1804322/court-data-fetcher-dashboard/blob/main/screenshots/Screenshot%202025-08-10%20123932.png
 
 
 
